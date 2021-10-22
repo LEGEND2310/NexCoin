@@ -1,6 +1,7 @@
 import hashlib
 import time
 
+#Instantiating Classes for Blockchain
 class Block:
 
     def __init__(self, index, proof_no, prev_hash, data, timestamp = None):
@@ -138,7 +139,7 @@ if __name__ == "__main__":
 
     blockchain.new_data(
         sender="0",  #it implies that this node has created a new block
-        recipient="Legend",  #let's send Legend some coins!
+        recipient="KillaShank",  #let's send KillaShank some coins!
         quantity=
         1,  #creating a new block (or identifying the proof number) is awarded with 1
     )
