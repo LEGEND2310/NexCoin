@@ -126,7 +126,7 @@ class Blockchain:
         )
 
 
-
+# Main function is used to run the script
 if __name__ == "__main__":
     blockchain = Blockchain()
 
